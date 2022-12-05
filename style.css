@@ -8,10 +8,18 @@ html {
 }
 body {
   max-width: 130rem;
-  margin: 0 3.2rem;
+  /* margin: 0 3.2rem; */
 }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: aquamarine;
+}
+
 .first {
   font-size: 1.8rem;
   color: #f7f7f7;
   background-color: #881616;
+  margin-bottom: 3.2rem;
 }
